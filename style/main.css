@@ -1,0 +1,328 @@
+body {
+    background: #EFEFF2;
+    margin: 0;
+    font: 400 18px/28px Inter, sans-serif;
+    color: #19191C;
+}
+
+.container {
+    width: auto;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 240px 0;
+}
+
+.header__box {
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    padding: 0;
+    margin: 0;
+    font: 600 18px/22px Inter, sans-serif;
+}
+
+.btn-box {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
+.header__logo {
+    font: 800 24px/30px Inter, sans-serif;
+    display: flex;
+    gap: 14px;
+    color: #19191C;
+    text-decoration: none;
+    align-items: center;
+}
+
+.link {
+    color: #19191C;
+    text-decoration: none;
+}
+
+.header__link {
+    color: #19191C;
+    font: 600 18px/22px Inter, sans-serif;
+    text-decoration: none;
+}
+
+.header__btn {
+    background: #19191C;
+    color: #EFEFF2;
+    padding: 12px 37px;
+    text-decoration: none;
+    font: 700 18px/22px Inter, sans-serif;
+}
+
+.course {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 249px 240px;
+    background: url("../img/student_designer.png") 100% 100% no-repeat;
+}
+
+.course__holder {
+    width: 648px;
+}
+
+.course__title {
+    font: 700 58px/70px Inter, sans-serif;
+}
+
+footer {
+    background: #19191C;
+    color: #FBFBFC;
+}
+
+.copyright {
+    color: #6D6D77;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    text-decoration: none;
+}
+
+.sitemap__title {
+    font: 600 18px/22px Inter, sans-serif;
+}
+
+.footer__logo {
+    font: 800 18px/22px Inter, sans-serif;
+    display: flex;
+    gap: 12px;
+    text-decoration: none;
+    align-items: center;
+}
+
+.course__holder {
+    background: url("../img/Ellipse 20.svg") 10% 30% no-repeat;
+}
+
+.course__technologies__list {
+    flex-grow: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.course__invision {
+    position: absolute;
+    top: 66px;
+    left: 660px;
+}
+
+.course__protopie {
+    position: absolute;
+    top: 0;
+    left: 453px;
+}
+
+.course__miro {
+    position: absolute;
+    top: 74px;
+    left: 204px;
+}
+
+.course__photoshop {
+    position: absolute;
+    top: 256px;
+    left: 168px;
+}
+
+.course__figma {
+    position: absolute;
+    top: 393px;
+    left: -100px;
+}
+
+.course__illustrator {
+    position: absolute;
+    top: 570px;
+    left: 36px;
+}
+
+.course__item {
+    position: absolute;
+    border: 2px solid #19191C;
+    padding: 16px 36px;
+    font: 700 18px/22px Inter, sans-serif;
+}
+
+.course__button {
+    background: #504DEE;
+    color: #FBFBFC;
+    font: 700 18px/22px Inter, sans-serif;
+    width: 141px;
+    height: 54px;
+    border: none;
+}
+
+.course__sale {
+    font: 700 58px/70px Inter, sans-serif;
+}
+
+.profession__counter-item {
+    font: 700 58px/70px Inter, sans-serif;
+}
+
+.profession__title {
+    font: 700 58px/70px Inter, sans-serif;
+}
+
+.profession__card-portfolio {
+    background: #DEEFE4;
+    padding: 48px;
+}
+
+.profession__card-internship {
+    background: #F3F3D7;
+    padding: 48px;
+}
+
+.profession__card-certificate {
+    background: #EFDEEE;
+    padding: 48px;
+}
+
+.discover {
+    padding: 168px 240px;
+}
+
+.discover__cards {
+    display: flex;
+    gap: 20px;
+}
+
+.discover__cards-item {
+    background: #DEEFE4;
+    padding: 0 68px 51px;
+}
+
+.discover__cards-button {
+    background: #19191C;
+    color: #FBFBFC;
+    font: 700 24px/26px Inter, sans-serif;
+    width: 163px;
+    height: 58px;
+    border: none;
+}
+
+.discover__cards__optimal {
+    background: #504DEE;
+    color: #FBFBFC;
+    padding: 0 68px 51px;
+}
+
+.discover__cards__optimal-button {
+    background: #FBFBFC;
+    color: #504DEE;
+    font: 700 24px/26px Inter, sans-serif;
+    width: 163px;
+    height: 58px;
+    border: none;
+}
+
+.profession {
+    padding: 168px 240px;
+}
+
+.profession__cards {
+    display: flex;
+    gap: 20px;
+}
+
+.profession__info {
+    display: flex;
+    gap: 103px;
+}
+
+.profession__text {
+    width: 588px;
+}
+
+.profession__counters {
+    width: 354px;
+}
+
+.profession__counter {
+    width: 254px;
+}
+
+.footer__main {
+    display: flex;
+    gap: 100px;
+}
+
+.footer {
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+@media screen and (max-width: 1439px) {
+    .profession__cards {
+        display: list-item;
+        padding-right: 240px;
+    }
+
+    .profession__info {
+        display: list-item;
+    }
+
+    .discover__cards {
+        display: list-item;
+        padding-right: 240px;
+    }
+
+    .course__invision {
+        position: relative;
+        top: 66px;
+        left: 80%;
+    }
+
+    .course__protopie {
+        position: relative;
+        top: 80px;
+        left: 45%;
+    }
+
+    .course__miro {
+        position: relative;
+        top: 100px;
+        left: 20%;
+    }
+
+    .course__photoshop {
+        position: relative;
+        top: 256px;
+        left: 16%;
+    }
+
+    .course__figma {
+        position: relative;
+        top: 393px;
+        left: -10%;
+    }
+
+    .course__illustrator {
+        position: relative;
+        top: 570px;
+        left: 36%;
+    }
+}
+
+
